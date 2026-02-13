@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from '@/context/LanguageContext';
+import { useLanguage } from './context/LanguageContext';
 import { MapPin, Phone, Mail, Send, CheckCircle } from 'lucide-react';
 
 export default function Contact() {
