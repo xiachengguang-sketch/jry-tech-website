@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from '@/context/LanguageContext';
-import { clients } from '@/data';
+import { useLanguage } from './context/LanguageContext';
+import { clients } from './data';
 
 export default function Clients() {
   const { t } = useLanguage();
