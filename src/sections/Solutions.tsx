@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from './context/LanguageContext';
-import { solutions } from './data';
+import { useLanguage } from '../context/LanguageContext';
+import { solutions } from '../data';
 import { ArrowRight, Check } from 'lucide-react';
 
 export default function Solutions() {
