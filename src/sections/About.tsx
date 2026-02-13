@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from './context/LanguageContext';
-import { stats } from './data';
+import { useLanguage } from '../context/LanguageContext';
+import { stats } from '../data';
 
 export default function About() {
   const { language, t } = useLanguage();
