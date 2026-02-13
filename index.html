@@ -1,95 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>佳瑞洋科技 JRY Technology</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-        
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                        url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920') center/cover;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
-        .hero h1 { font-size: 4rem; margin-bottom: 1rem; }
-        .hero h1 span { color: #1B45F4; }
-        .hero p { font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9; }
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background: #1B45F4;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin: 0 10px;
-        }
-        .btn-outline {
-            background: transparent;
-            border: 2px solid white;
-        }
-        
-        /* Stats */
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 60px;
-            padding: 60px 20px;
-            background: #f5f5f5;
-        }
-        .stat { text-align: center; }
-        .stat h3 { font-size: 3rem; color: #1B45F4; }
-        .stat p { color: #666; }
-        
-        /* Footer */
-        footer {
-            background: #000;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <!-- Hero -->
-    <section class="hero">
-        <div>
-            <h1>工业精密 <span>遇见</span> 数字流体</h1>
-            <p>为现代工业打造的高端喷墨技术。精准与力量的完美融合。</p >
-            <div>
-                <a href=" " class="btn">探索产品</a >
-                <a href="#video" class="btn btn-outline">观看视频</a >
-            </div>
-        </div>
-    </section>
-    
-    <!-- Stats -->
-    <section class="stats">
-        <div class="stat">
-            <h3>500+</h3>
-            <p>全球客户</p >
-        </div>
-        <div class="stat">
-            <h3>50+</h3>
-            <p>国家分布</p >
-        </div>
-        <div class="stat">
-            <h3>13+</h3>
-            <p>年卓越经验</p >
-        </div>
-    </section>
-    
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 佳瑞洋科技。保留所有权利。</p >
-        <p>电话: +86-10-6783 2166 | 邮箱: info@jry-tech.com</p >
-    </footer>
-</body>
+    <meta name="description" content="专注于数字喷墨技术开发与产品溯源集成方案">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
