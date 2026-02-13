@@ -1,4 +1,4 @@
-import { useLanguage } from '@/context/LanguageContext';
+import { useLanguage } from './context/LanguageContext';
 import { MapPin, Phone, Mail, Linkedin, Twitter } from 'lucide-react';
 
 const quickLinks = [
