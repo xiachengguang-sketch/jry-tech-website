@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from './context/LanguageContext';
-import { blogPosts } from './data';
+import { useLanguage } from '../context/LanguageContext';
+import { blogPosts } from '../data';
 import { ArrowRight, Calendar } from 'lucide-react';
 
 export default function Blog() {
