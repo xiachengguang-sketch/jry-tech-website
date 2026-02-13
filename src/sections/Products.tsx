@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from './context/LanguageContext';
-import { products } from './data';
+import { useLanguage } from '../context/LanguageContext';
+import { products } from '../data';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Products() {
