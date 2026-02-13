@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { useLanguage } from './context/LanguageContext';
-import { advantages } from './data';
+import { useLanguage } from '../context/LanguageContext';
+import { advantages } from '../data';
 import { Settings, Globe, Headphones, Puzzle, Shield, Truck } from 'lucide-react';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
