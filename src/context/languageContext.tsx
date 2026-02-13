@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useCallback, type ReactNode } from 'react';
-import type { Language } from '../types';
+
+type Language = 'zh' | 'en';
 
 interface LanguageContextType {
   language: Language;
