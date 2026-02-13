@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useLanguage } from './context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext';
 import { Menu, X, Globe } from 'lucide-react';
 
 const navItems = [
