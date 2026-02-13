@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { useLanguage } from '@/context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext';
 import { ArrowRight, Play } from 'lucide-react';
 
 export default function Hero() {
